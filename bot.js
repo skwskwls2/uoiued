@@ -5,6 +5,7 @@ var client = new Discord.Client();
 client.on('ready', () => {
   console.log(`Welcome Bro ${client.user.tag}!`);
 });
+
 var prefix = '#'
 
 client.on('message', message => {
